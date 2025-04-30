@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ganhe Renda Extra Online</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #00ffb3;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #00ffb3;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #00cc8a;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Descubra Como Ter Renda Extra Pela Internet!</h1>
+    <p>
+      Em um mundo cada vez mais digital, a internet oferece inúmeras oportunidades para gerar renda extra de forma prática e acessível. Seja vendendo produtos, prestando serviços, ou trabalhando com marketing digital, existem formas reais e comprovadas de ganhar dinheiro online — mesmo começando do zero.
+      <br><br>
+      Se você quer mudar sua realidade financeira, começar um projeto paralelo ou apenas garantir uma grana extra no fim do mês, essa pode ser a sua chance.
+    </p>
+    <a class="btn" href="https://chat.whatsapp.com/BSBqw0z4U1M8dSVhVm9HD5" target="_blank">Entrar no Grupo do WhatsApp</a>
+  </div>
+</body>
+</html>
