@@ -1,213 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ganhe Dinheiro como Avaliador de Mídias</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f3f4f6;
-      color: #333;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-
-    header {
-      background: linear-gradient(90deg, #4f46e5, #6366f1);
-      color: white;
-      padding: 50px 20px;
-      text-align: center;
-      animation: fadeDown 1s ease-out;
-    }
-
-    header h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.2em;
-    }
-
-    .section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: 0 auto;
-      opacity: 0;
-      transform: translateY(30px);
-      animation: slideUp 1s ease-out forwards;
-    }
-
-    .section:nth-of-type(2) {
-      animation-delay: 0.5s;
-    }
-
-    .section:nth-of-type(3) {
-      animation-delay: 1s;
-    }
-
-    .section h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-      color: #4f46e5;
-    }
-
-    .section p {
-      font-size: 1.1em;
-      margin-bottom: 15px;
-    }
-
-    .benefits {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 20px;
-      margin-top: 30px;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-    }
-
-    .cta {
-      background: #10b981;
-      color: white;
-      text-align: center;
-      padding: 50px 20px;
-      margin-top: 40px;
-      animation: fadeIn 1.5s ease-in;
-    }
-
-    .cta h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
-
-    .cta a {
-      display: inline-block;
-      background: white;
-      color: #10b981;
-      padding: 15px 30px;
-      font-weight: bold;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: background 0.3s, transform 0.2s;
-    }
-
-    .cta a:hover {
-      background: #e5e7eb;
-      transform: scale(1.05);
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #888;
-    }
-
-    @keyframes fadeDown {
-      from {
-        opacity: 0;
-        transform: translateY(-30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes slideUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2em;
-      }
-      .cta h2 {
-        font-size: 1.5em;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brayan Company - Avaliador de Mídias</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <header>
-    <h1>Ganhe Dinheiro com Avaliação de Mídias e Pesquisas Online</h1>
-    <p>Trabalhe do seu celular, em casa, e tenha uma renda extra todos os meses!</p>
+    <img src="logo.png" alt="Brayan Company Logo">
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#vantagens">Vantagens</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section class="section">
-    <h2>O que é um Avaliador de Mídias?</h2>
-    <p>Avalie conteúdos de redes sociais, anúncios e vídeos curtos com seu celular e seja pago por isso.</p>
-    <p>Também é possível responder pesquisas simples e ganhar por cada uma completada.</p>
-    <p>Sem exigências. Sem complicações. Basta um celular e acesso à internet.</p>
-  </section>
+  <main>
+    <section id="hero">
+      <h1>Ganhe Dinheiro Avaliando Mídias e Respondendo Pesquisas</h1>
+      <p>Trabalhe de casa com flexibilidade e segurança.</p>
+      <a href="https://chat.whatsapp.com/seu-link" class="cta-button">Entrar no Grupo VIP</a>
+    </section>
 
-  <section class="section">
-    <h2>Vantagens de Trabalhar Online</h2>
-    <div class="benefits">
-      <div class="card">
-        <h3>100% Home Office</h3>
-        <p>Trabalhe de onde quiser, com liberdade total.</p>
-      </div>
-      <div class="card">
-        <h3>Ganhos Diários</h3>
-        <p>Receba por tarefas simples e frequentes.</p>
-      </div>
-      <div class="card">
-        <h3>Horário Flexível</h3>
-        <p>Você escolhe seus horários. Ideal para qualquer rotina.</p>
-      </div>
-      <div class="card">
-        <h3>Sem Investimentos</h3>
-        <p>Comece gratuitamente e veja os resultados.</p>
-      </div>
-    </div>
-  </section>
+    <section id="vantagens">
+      <h2>Por que Escolher a Brayan Company?</h2>
+      <ul>
+        <li><strong>100% Home Office:</strong> Trabalhe de onde quiser.</li>
+        <li><strong>Ganhos Diários:</strong> Receba por tarefas simples.</li>
+        <li><strong>Horário Flexível:</strong> Você define sua rotina.</li>
+        <li><strong>Sem Investimentos:</strong> Comece gratuitamente.</li>
+      </ul>
+    </section>
 
-  <section class="cta">
-    <h2>Pronto para começar?</h2>
-    <p>Entre no grupo VIP no WhatsApp agora mesmo e receba tudo gratuitamente:</p>
-    <a href="https://chat.whatsapp.com/BSBqw0z4U1M8dSVhVm9HD5" target="_blank">Entrar no Grupo VIP</a>
-  </section>
+    <!-- Seções adicionais como Sobre Nós, Depoimentos, FAQ e Contato -->
+  </main>
 
   <footer>
-    © 2025 - Brayan Company. Todos os direitos reservados.
+    <p>&copy; 2025 Brayan Company. Todos os direitos reservados.</p>
   </footer>
-
 </body>
 </html>
